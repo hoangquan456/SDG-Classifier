@@ -24,7 +24,7 @@ def chat2(text):
     url = "https://openrouter.ai/api/v1/chat/completions"   
 
     headers = {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer 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",
         "Content-Type": "application/json",
     }
 
@@ -41,7 +41,11 @@ def chat2(text):
                 "role": "user",
                 "content": prompt
             }
-        ]
+        ],
+        "temperature": 0.7,  # Moderate creativity
+        "top_p": 0.9,
+        "frequency_penalty": 0.3,
+        "presence_penalty": 0.3,
     }
 
     try:
@@ -71,8 +75,8 @@ def chat2(text):
 # ans = chat2("""Generate 10 texts (each must be 1000 words long) that are directly related to SDG 1 (No Poverty) without explicitly mentioning it. Each text should also include some noise—such as unrelated details, minor references to other SDGs (e.g., health, education, climate, gender, water, life, justice), or slightly off-topic elements.
 
 # Ensure diversity in scenarios and keep the language natural. Avoid direct terms like 'SDG 1,' 'poverty reduction,' or 'extreme poor.""")
-ans = chat2("""Generate exactly 10 texts that directly address themes tied to SDG 1 (No Poverty)—such as Poverty Eradication, Social Protection Systems, Economic Empowerment, Resilience to Shocks & Disasters, Bridging the wealth gap—without explicitly naming the goal. Each text should adopt a formal academic writing style, resembling abstract sections from peer-reviewed journal articles such as literature reviews, methodology discussions, or results analyses. REMEMBER Each text must be 1000 words.
-Ensure all texts are grammatically flawless, and ready for dataset use. Format each text like this:  
+ans = chat2("""Generate exactly 10 texts that directly address these themes: Poverty Eradication, Social Protection Systems, Economic Empowerment, Resilience to Shocks & Disasters, Bridging the wealth gap, Affordable housing and sanitation, Government accountability in poverty programs—without explicitly naming the goal. Each text should adopt a formal academic writing style, resembling abstract sections from peer-reviewed journal articles such as literature reviews, methodology discussions, or results analyses. REMEMBER, Each text must be long, about 30 sentences.
+Ensure all texts are ready for dataset use to fine tune model. Format each text like this:  
 
 ### Text 1 ###  
 [Your first text here.]  
