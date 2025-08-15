@@ -1,0 +1,74 @@
+Generate exactly 10 texts that directly address one of these themes: Poverty Eradication, Social Protection Systems, Economic Empowerment, Resilience to Shocks & Disasters, Bridging the wealth gap, Affordable housing and sanitation, Government accountability in poverty programs—without explicitly naming the goal. Each text should directly relate to SDG 1 - No poverty. Each text should adopt a formal academic writing style, resembling abstract sections from peer-reviewed journal articles such as literature reviews, methodology discussions, or results analyses. REMEMBER, Each text must be long, about 40 sentences.
+Ensure all texts are ready for dataset use to fine tune model. Format each text like this:  
+
+### Text 1 ###  
+[Your first text here.]  
+
+### Text 2 ###  
+[Your second text here.] 
+            
+### Text 3 ###  
+[Your third text here.] 
+            
+...  
+            
+### Text 10 ###  
+[Your tenth text here.] 
+
+
+Generate exactly 10 texts that not address one of these themes: Poverty Eradication, Social Protection Systems, Economic Empowerment, Resilience to Shocks & Disasters, Bridging the wealth gap, Affordable housing and sanitation, Government accountability in poverty programs—without explicitly naming the goal. Each text MUST not relate to SDG 1 - No poverty. Each text should adopt a formal academic writing style, resembling abstract sections from peer-reviewed journal articles such as literature reviews, methodology discussions, or results analyses. REMEMBER, Each text must be long, about 40 sentences.
+Ensure all texts are ready for dataset use to fine tune model. Format each text like this:  
+
+### Text 1 ###  
+[Your first text here.]  
+
+### Text 2 ###  
+[Your second text here.] 
+            
+### Text 3 ###  
+[Your third text here.] 
+            
+...  
+            
+### Text 10 ###  
+[Your tenth text here.] 
+
+
+
+Generate exactly 5 texts that not address one of these themes: Poverty Eradication, Social Protection Systems, Economic Empowerment, Resilience to Shocks & Disasters, Bridging the wealth gap, Affordable housing and sanitation, Government accountability in poverty programs—without explicitly naming the goal. Each text MUST not relate to SDG 1 - No poverty. REMEMBER, Each text must be long, about 40 sentences.
+Ensure all texts are ready for dataset use to fine tune model. Format each text like this:  
+
+### Text 1 ###  
+[Your first text here.]  
+
+### Text 2 ###  
+[Your second text here.] 
+            
+### Text 3 ###  
+[Your third text here.] 
+            
+### Text 4 ###  
+[Your fourth text here.] 
+            
+### Text 5 ###  
+[Your fifth text here.] 
+
+
+
+Generate exactly 5 texts that NOT address one of these themes: Poverty Eradication, Social Protection Systems, Economic Empowerment, Resilience to Shocks & Disasters, Bridging the wealth gap, Affordable housing and sanitation, Government accountability in poverty programs—without explicitly naming the goal. Each text MUST not relate to SDG 1 - No poverty. Each text should adopt a formal academic writing style, resembling abstract sections from peer-reviewed journal articles such as literature reviews, methodology discussions, or results analyses. REMEMBER, Each text must be long, about 30 sentences.
+Ensure all texts are ready for dataset use to fine tune model. Format each text like this:  
+
+### Text 1 ###  
+[Your first text here.]  
+
+### Text 2 ###  
+[Your second text here.] 
+            
+### Text 3 ###  
+[Your third text here.] 
+            
+### Text 4 ###  
+[Your fourth text here.] 
+            
+### Text 5 ###  
+[Your fifth text here.] 
